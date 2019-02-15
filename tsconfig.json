@@ -4,7 +4,7 @@
         "module": "commonjs",
         "alwaysStrict": true,
         "noUnusedLocals": false,
-        "noUnusedParameters": true,
+        "noUnusedParameters": false,
         "noImplicitAny": true,
         "strictNullChecks": true,
         "preserveConstEnums": true,
