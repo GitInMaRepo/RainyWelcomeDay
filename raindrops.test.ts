@@ -27,4 +27,28 @@ describe('Raindrops', () => {
     it('should show "Plong" if we give it a 7', () => {
         expect(target.rain(7)).toBe("Plong")
     })
+
+    it('should show "Pling" if we give it a 6', () => {
+        expect(target.rain(6)).toBe("Pling")
+    })
+
+    it('should show "Pling" if we give it a 10', () => {
+        expect(target.rain(10)).toBe("Plang")
+    })
+
+    it('should show "Plong" if we give it a 14', () => {
+        expect(target.rain(14)).toBe("Plong")
+    })
+
+    it('should show "PlingPlang" if we give it a 15', () => {
+        expect(target.rain(15)).toBe("PlingPlang")
+    })
+
+    it('should show "PlangPlong" if we give it a 35', () => {
+        expect(target.rain(35)).toBe("PlangPlong")
+    })
+
+    it('should show "PlingPlangPlong" if we give it a 105', () => {
+        expect(target.rain(105)).toBe("PlingPlangPlong")
+    })
 })

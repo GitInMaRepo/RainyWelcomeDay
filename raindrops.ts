@@ -1,15 +1,19 @@
 class RainDrops {
     rain(input: number): string {
-        if (input === 3) {
-            return "Pling"
+        let result = ""
+        if (input % 3 === 0) {
+            result += "Pling"
         }
-        if (input === 5) {
-            return "Plang"
+        if (input % 5 === 0) {
+            result += "Plang"
         }
-        if (input === 7) {
-            return "Plong"
+        if (input % 7 === 0) {
+            result += "Plong"
         }
-        return input.toString()
+        if (result === "") {
+            return input.toString()
+        }
+        return result
     }
 }
 
