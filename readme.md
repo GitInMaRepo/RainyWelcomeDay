@@ -18,8 +18,8 @@ Spiel mit beliebig hohen Zahlen zu spielen
 ## Steps
 
 * Testfälle aufschreiben
+* TDD beachten [https://cucumber.io/images/blog/seb-accu/write-failing-test.png]
 * Ersten Test implementieren
 * Ersten Test mit **npm test** durchführen
 * Test Watcher mit **npm test -- --watch** starten 
 * Restliche Testfälle implementieren
-* Dabei TDD beachten [https://cucumber.io/images/blog/seb-accu/write-failing-test.png]
